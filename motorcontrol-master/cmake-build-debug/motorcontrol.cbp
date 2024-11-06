@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="motorcontrol"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motorcontrol.elf">
+				<Option output="D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/motorcontrol.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F446xx"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc"/>
+					<Add directory="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 motorcontrol.elf"/>
+					<CompileFile command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motorcontrol.elf/fast">
+				<Option output="D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/motorcontrol.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F446xx"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc"/>
+					<Add directory="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 motorcontrol.elf/fast"/>
+					<CompileFile command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Clion/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Github/MIT-FOC-Driver/motorcontrol-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/adc.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/calibration.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/can.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/drv8323.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/flash_writer.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/foc.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/fsm.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/gpio.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/hw_config.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/lookup.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/main.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/math_ops.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/position_sensor.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/preference_writer.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/spi.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/stm32f4xx_flash.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/stm32f4xx_it.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/structs.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/tim.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/usart.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Inc/user_config.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/adc.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/calibration.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/can.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/drv8323.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/flash_writer.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/foc.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/fsm.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/gpio.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/main.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/math_ops.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/position_sensor.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/preference_writer.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/spi.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/stm32f4xx_flash.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/stm32f4xx_it.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/syscalls.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/sysmem.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/system_stm32f4xx.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/tim.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Src/usart.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Core/Startup/startup_stm32f446retx.s">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/STM32F446RETX_FLASH.ld">
+			<Option target="motorcontrol.elf"/>
+		</Unit>
+		<Unit filename="D:/Github/MIT-FOC-Driver/motorcontrol-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
